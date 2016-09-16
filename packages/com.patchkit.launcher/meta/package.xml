@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Package>
+    <DisplayName>$NAME$</DisplayName>
+    <Description>$NAME$ application.</Description>
+    <Version>$VERSION$</Version>
+    <ReleaseDate>$RELEASE_DATE$</ReleaseDate>
+    <Name>com.patchkit.launcher</Name>
+    <ForcedInstallation>true</ForcedInstallation>
+</Package>
