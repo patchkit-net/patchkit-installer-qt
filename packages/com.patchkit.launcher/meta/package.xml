@@ -6,4 +6,5 @@
     <ReleaseDate>$RELEASE_DATE$</ReleaseDate>
     <Name>com.patchkit.launcher</Name>
     <ForcedInstallation>true</ForcedInstallation>
+    <Script>installscript.qs</Script>
 </Package>

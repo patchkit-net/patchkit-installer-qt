@@ -5,8 +5,8 @@
     <Title>$NAME$ Installer</Title>
     <Publisher>$PUBLISHER$</Publisher>
     <ProductUrl>$URL$</ProductUrl>
-    <RunProgram>Launcher</RunProgram>
-    <StartMenuDir>$PUBLISHER$/$NAME$</StartMenuDir>
+    <StartMenuDir>$NAME$</StartMenuDir>
     <TargetDir>@ApplicationsDir@/$PUBLISHER$/$NAME$</TargetDir>
+    <RunProgram>@TargetDir@/Launcher</RunProgram>
     <RemoveTargetDir>true</RemoveTargetDir>
 </Installer>
