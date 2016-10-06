@@ -1,5 +1,10 @@
 # PatchKit Installer Qt
 
+## Requirements
+
+* [Qt Framework](https://www.qt.io/download/) - you can use this [guide](https://github.com/patchkit-net/patchkit-launcher-qt/blob/master/README.md) to compile statically linked version of Qt Framework.
+* [Qt Installer Framework](https://github.com/qtproject/installer-framework)
+
 ## Configuration
 
 Before you build the installer you should modify following files by replacing values surrounded by `$` with their values:
@@ -23,10 +28,6 @@ Installer is configured to extract the data from package located under path *pac
 You can use `archivegen` tool provided by **Qt Installer Framework** to create a package of the data.
 
 ## Building
-
-Building installer is done by [Qt Installer Framework](https://github.com/qtproject/installer-framework).
-
-Make sure to install Qt Installer Framework envirnonment and use following command line to build the installer.
 
 ``` bash
 binarycreator --offline-only -p packages -c config/config.xml installer.exe
